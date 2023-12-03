@@ -1,22 +1,156 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css">
-        <title>Apple Store</title>
-    </head>
-    <body>
-        <h1><b>Iphone 15 pro max</b></h1>
-        <div class="content">
-            <img class="icon" src="new-icon-27.jpg">            
-            <img class="img" src="6395930_iphone-15-pro-max-bac-thumb-600x600.jpeg">
-            <img class="price" src="z4785801307559_364a9106e27b5b044cb68a949ff995a9.jpg">
-            <div class="strap">
-                <img class="box" src="z4785898457261_1e3b863bdcafaf38a36aab854bb076d2.jpg">
-                <br><a href="https://www.apple.com/" target="_blank"><img class="box" src="z4785898462225_da3e0ab9bdbad8f181640599a9f2717f.jpg"></a>
-                <br><a href="https://www.apple.com/shop/buy-iphone/iphone-15-pro" target="_blank"><img class="box" src="z4785898462312_e0febb64949e1441778d151c07f6104e.jpg"></a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">OnlineStore</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <div class="text-center card">
+                <div class="card-header">
+                    Iphone
+                </div>
+                <div class="card-body">
+                    <img src="iphone.jpg" width="200px" height="250px">
+                </div>
+                <div class="card-footer">
+                    <button type="submit" style="border-radius: 10px; color: azure; background-color: chartreuse;">Buy</button>
+                    <button type="submit" style="border-radius: 10px; color: orangered; background-color: yellow;">&#10031;</button>
+                </div>
+            </div>
+            <div class="card-footer text-body-secondary text-center">
+                $1.200
             </div>
         </div>
-    </body>
+        <div class="col-4">
+            <div class="text-center card">
+                <div class="card-header">
+                    Laptop 
+                </div>
+                <div class="card-body">
+                    <img src="laptop.png" width="200px" height="250px">
+                </div>
+                <div class="card-footer">
+                    <button type="submit" style="border-radius: 10px; color: azure; background-color: chartreuse;">Buy</button>
+                    <button type="submit" style="border-radius: 10px; color: orangered; background-color: yellow;">&#10031;</button>
+                </div>
+            </div>
+            <div class="card-footer text-body-secondary text-center">
+                $825
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="text-center card">
+                <div class="card-header">
+                    Ipad
+                </div>
+                <div class="card-body">
+                    <img src="ipad.png" width="200px" height="250px">
+                </div>
+                <div class="card-footer">
+                    <button type="submit" style="border-radius: 10px; color: azure; background-color: chartreuse;">Buy</button>
+                    <button type="submit" style="border-radius: 10px; color: orangered; background-color: yellow;">&#10031;</button>
+                </div>
+            </div>
+            <div class="card-footer text-body-secondary text-center">
+                $775
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+            <div class="text-center card">
+                <div class="card-header">
+                    Mouse
+                </div>
+                <div class="card-body">
+                    <img src="mouse.png" width="200px" height="250px">
+                </div>
+                <div class="card-footer">
+                    <button type="submit" style="border-radius: 10px; color: azure; background-color: chartreuse;">Buy</button>
+                    <button type="submit" style="border-radius: 10px; color: orangered; background-color: yellow;">&#10031;</button>
+                </div>
+            </div>
+            <div class="card-footer text-body-secondary text-center">
+                $20
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="text-center card">
+                <div class="card-header">
+                    Keyboard
+                </div>
+                <div class="card-body">
+                    <img src="keyboard.png" width="200px" height="250px">
+                </div>
+                <div class="card-footer">
+                    <button type="submit" style="border-radius: 10px; color: azure; background-color: chartreuse;">Buy</button>
+                    <button type="submit" style="border-radius: 10px; color: orangered; background-color: yellow;">&#10031;</button>
+                </div>
+            </div>
+            <div class="card-footer text-body-secondary text-center">
+                $70
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="text-center card">
+                <div class="card-header">
+                    Computer Case
+                </div>
+                <div class="card-body">
+                    <img src="case.png" width="200px" height="250px">
+                </div>
+                <div class="card-footer">
+                    <button type="submit" style="border-radius: 10px; color: azure; background-color: chartreuse;">Buy</button>
+                    <button type="submit" style="border-radius: 10px; color: orangered; background-color: yellow;">&#10031;</button>
+                </div>
+            </div>
+            <div class="card-footer text-body-secondary text-center">
+                $850
+            </div>
+        </div>
+      </div>
+</body>
 </html>
